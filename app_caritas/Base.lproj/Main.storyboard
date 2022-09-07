@@ -33,6 +33,82 @@
             </objects>
             <point key="canvasLocation" x="29.600000000000001" y="54.422788605697157"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rgm-tI-mYB">
+            <objects>
+                <viewController id="2El-LC-XJR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5dz-Mq-1Bm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bienvenido a" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpS-K5-MiR">
+                                <rect key="frame" x="30" y="375" width="116" height="23"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <color key="textColor" red="0.9803922772" green="0.98039215800000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cáritas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdD-d7-5Oh">
+                                <rect key="frame" x="30" y="398" width="203" height="72"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="64"/>
+                                <color key="textColor" red="0.9803922772" green="0.98039215800000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeO-kB-qy9">
+                                <rect key="frame" x="30" y="471" width="303" height="86"/>
+                                <string key="text">Captar y promover recursos humanos interesados en donar su tiempo y sus conocimientos, apoyando con su trabajo a nuestra institución y a otros organismos para el beneficio de nuestros hermanos más necesitados.</string>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13k-ju-BsR">
+                                <rect key="frame" x="30" y="584" width="124" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.27058823529411763" green="0.60319834949999995" blue="0.6431458592" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Regístrate">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Arial-BoldMT"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIF-Kl-Nqd">
+                                <rect key="frame" x="221" y="584" width="124" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.32549023630000001" green="0.32549023630000001" blue="0.32549023630000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Inicia Sesión">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Arial-BoldMT"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fci-fA-ctS"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TeO-kB-qy9" firstAttribute="leading" secondItem="Fci-fA-ctS" secondAttribute="leading" constant="30" id="60g-Tx-Qbt"/>
+                            <constraint firstItem="rdD-d7-5Oh" firstAttribute="leading" secondItem="Fci-fA-ctS" secondAttribute="leading" constant="30" id="8Ry-Wj-ARr"/>
+                            <constraint firstItem="rdD-d7-5Oh" firstAttribute="top" secondItem="PpS-K5-MiR" secondAttribute="bottom" constant="10" id="Kbw-QW-gXD"/>
+                            <constraint firstItem="Fci-fA-ctS" firstAttribute="bottom" secondItem="TeO-kB-qy9" secondAttribute="bottom" constant="110" id="Ten-nW-1Ib"/>
+                            <constraint firstItem="PpS-K5-MiR" firstAttribute="leading" secondItem="Fci-fA-ctS" secondAttribute="leading" constant="30" id="UwI-qM-HAv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U4i-66-Q1c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="864.79999999999995" y="53.523238380809602"/>
+        </scene>
     </scenes>
     <resources>
         <image name="caritasmty-logo" width="206" height="100"/>
